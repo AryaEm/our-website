@@ -31,8 +31,13 @@ li:hover {
 
 .main {
     padding: 20px 25px;
+    margin-bottom: 700px;
 }
 
 .main h1 {
     font-size: 34px;
+}
+
+.Contact {
+    margin-left: 20px;
 }

@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>our cute website</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Cool Website</title>
 
-</head>
-<body>
-    <!--Navigation bar-->
-    <ul>
-        <li><a href="index.html">Home</a></Li>
-        <li><a href="index.html">Contact</a></Li>
-    </ul>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet" />
 
-    <!-- main -->
-    <div class="main">
-        <h1>Welcome to our website</h1>
-        <h1>Hii Terima Kasih Sudah Berkunjung Di Website Kita Yang Cool Ini</h1>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Our Cool<span> Website</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-ekstra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Our Cool Website<span><div class=""></div></span>
+        </h1>
+        <p>
+         Hii Terima Kasih Sudah Berkunjung Di Website Kita Yang Cool Ini
+        </p>
+        <a href="#about" class="cta">View Our Developer</a>
+      </main>
+    </section>
+    
+    <!-- About Page -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        </div>
+    <div class="row">
+      <div class="anggota-list">
+        <div class="anggota-image">
+          <img src="img/noprofile.png" alt="Anggota 1">
+        </div>
+        <div class="nama">
+          <h3>Arya Maulana</h3>
+          <div class="anggota-kelompok">
+            <p>Ketua Kelompok</p>
+          </div>
+          <a href="#contact" class="cta1">Contact Info</a>
+        </div>
+      </div>
+      <div class="anggota-list">
+        <div class="anggota-image">
+          <img src="img/fotoyafig.jpg" alt="Anggota 2">
+        </div>
+        <div class="nama">
+          <h3>Cipto Yafig Adiwongso</h3>
+          <div class="anggota-kelompok">
+            <p>Anggota Kelompok</p>
+          </div>
+          <a href="#contact" class="cta1">Contact Info</a>
+        </div>
+      </div>
+      <div class="anggota-list">
+        <div class="anggota-image">
+          <img src="img/noprofile.png" alt="Anggota 3">
+        </div>
+        <div class="nama">
+          <h3>Nathanael Felix Handoko</h3>
+          <div class="anggota-kelompok">
+            <p>Anggota Kelompok</p>
+          </div>
+          <a href="#contact" class="cta1">Contact Info</a>
+        </div>
+      </div>
     </div>
-    <div class="Contact">
+
+    </section>
+
+    <!-- Contact -->
+    <div id="contact" class="Contact">
         <h2>Berikut Contact Person Kita: </h2>
+
         <h2>Arya Maulana</h2>
         <p>Instragram: @aryaem</p>
         <p>Contact: 0812345678</p>
@@ -38,7 +115,10 @@
         <p>Contact: 08184834</p>
         <h2>Cipto Yafig</h2>
         <p>Instragram: @yafig.36</p>
-        <p>Contact: 08666666666</p>
+        <p>Contact: 081330948122</p>
     </div>
-</body>
+
+
+    </section>
+  </body>
 </html>

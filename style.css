@@ -1,6 +1,6 @@
 :root {
-  --primary: #206117;
-  --bg: #010101;
+  --primary: #146C94;
+  /* --bg: #010101; */
 }
 
 * {
@@ -9,7 +9,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 body {
@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: #010101cc;
   border-bottom: 1px solid #124b0a;
   position: fixed;
   top: 0;
@@ -36,14 +36,14 @@ body {
 }
 
 .navbar .navbar-logo {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 700;
   color: #fff;
   font-style: italic;
 }
 
 .navbar .navbar-logo span {
-  color: #124b0a;
+  color: #146C94;
 }
 
 .navbar .navbar-nav a {
@@ -105,53 +105,63 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(
+  /* background: linear-gradient(
     0deg,
     rgba(1, 1, 3, 1) 8%,
     rgba(225, 225, 225, 0) 50%
-  );
+  ); */
+}
+
+.hero {
+  background-image: linear-gradient(to bottom right, #146C94, #AFD3E2);
+
 }
 
 .hero .content {
   padding: 8rem;
   max-width: 60rem;
-  line-height: 1.2rem;
+  line-height: 1.2rem;;
 }
 
 .hero .content h1 {
   font-size: 2em;
+  margin-left: 260px;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 3;
 }
 
 .hero .content p {
-  font-size: 1.6rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-left: 260px;
+  margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 100;
   color: #ffffff;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  mix-blend-mode: difference;
+  text-shadow: 1px 1px 4px rgba(1, 1, 3, 0.5);
 }
 
 .hero .content .cta {
+  margin-left: 260px;
   margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.4rem;
   color: #fff;
-  background-color: #206117;
+  background-color: #146C94;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 /* About */
 .about {
   padding: 100px 0;
+  background-image: linear-gradient(to bottom left, #ffffff, #AFD3E2);
 }
 
-.about h2 {
+.about h1 {
+  font-size: 35px;
   text-align: center;
+  color: #146C94;
   margin-bottom: 50px;
 }
 
@@ -213,7 +223,7 @@ body {
   width: 150px;
   margin: 10px auto;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: #146C94;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -223,4 +233,9 @@ body {
 
 .cta:hover {
   background-color: #3e8e41;
+}
+
+.contact {
+  color: #146C94;
+  background-image: linear-gradient(to bottom right, #F6F1F1, #E5E1DA);
 }
